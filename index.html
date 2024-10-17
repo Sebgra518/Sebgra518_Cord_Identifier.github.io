@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Chord Identifier</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+  <h1>
+    Chord Identifier (Beta)
+  </h1>
+
+  <!--Choice of Cleff (Trebble/Bass)-->
+  <h3>
+    Cleff:
+  </h3>
+  <input id="Trebble" type="radio" name="Cleff" value="Trebble" checked="checked">
+  <label for="Trebble">Trebble</label>
+  <input id="Bass" type="radio" name="Cleff" value="Bass">
+  <label for="Bass">Bass</label>
+
+  <!--Choice of accidentals (Sharp/Flat)-->
+  <h3>
+    Sharp/Flat:
+  </h3>
+  <input type="radio" name="Sharp/Flat" value="Sharp" checked="checked" id="Sharp">
+  <label for="Trebble">Sharp</label>
+  <input type="radio" name="Sharp/Flat" value="Flat" id="Flat">
+  <label for="Flat">Flat</label>
+
+  <!--Choice of number of accidentals (1-7)-->
+  <h3>
+    Number of Accidentals:
+  </h3>
+  <div class="NumberofAccidentals">
+    <input type="radio" name="Number" value="0" id="0" checked="checked">
+    <label for="0">0</label>
+    <input type="radio" name="Number" value="1" id="1">
+    <label for="1">1</label>
+    <input type="radio" name="Number" value="2" id="2">
+    <label for="2">2</label>
+    <input type="radio" name="Number" value="3" id="3">
+    <label for="3">3</label>
+    <input type="radio" name="Number" value="4" id="4">
+    <label for="4">4</label>
+    <input type="radio" name="Number" value="5" id="5">
+    <label for="5">5</label>
+    <input type="radio" name="Number" value="6" id="6">
+    <label for="6">6</label>
+    <input type="radio" name="Number" value="7" id="7">
+    <label for="7">7</label>
+  </div>
+
+  <!--Display accidentals, cleff, and whole note images-->
+  <h3>
+    Root Note:
+  </h3>
+  <div class="Staff">
+    <img src="./imageDependencies/note.png" id="note1">
+    <img src="./imageDependencies/bass.png" id="BassCleff">
+    <img src="./imageDependencies/trebble.png" id="TrebbleCleff">
+    <img src="./imageDependencies/sharp.png" id="sharp1">
+    <img src="./imageDependencies/sharp.png" id="sharp2">
+    <img src="./imageDependencies/sharp.png" id="sharp3">
+    <img src="./imageDependencies/sharp.png" id="sharp4">
+    <img src="./imageDependencies/sharp.png" id="sharp5">
+    <img src="./imageDependencies/sharp.png" id="sharp6">
+    <img src="./imageDependencies/sharp.png" id="sharp7">
+    <img src="./imageDependencies/flat.png" id="flat1">
+    <img src="./imageDependencies/flat.png" id="flat2">
+    <img src="./imageDependencies/flat.png" id="flat3">
+    <img src="./imageDependencies/flat.png" id="flat4">
+    <img src="./imageDependencies/flat.png" id="flat5">
+    <img src="./imageDependencies/flat.png" id="flat6">
+    <img src="./imageDependencies/flat.png" id="flat7">
+
+    <!--Staff Lines-->
+    <div id="staff0"></div>
+    <div id="staff1"></div>
+    <div id="staff2"></div>
+    <div id="staff3"></div>
+    <div id="staff4"></div>
+    <div id="staff5"></div>
+    <div id="staff6"></div>
+    <div id="staff7"></div>
+    <div id="staff8"></div>
+    <br>
+    <label id="printStaff">Result:</label>
+
+    <!--Text for piano keys-->
+    <div id="p0"></div>
+    <p id="ctxt">C</p>
+
+    <div id="p1"></div>
+    <p id="cstxt">C#</p>
+
+    <div id="p2"></div>
+    <p id="dtxt">D</p>
+
+    <div id="p3"></div>
+    <p id="dstxt">D#</p>
+
+    <div id="p4"></div>
+    <p id="etxt">E</p>
+
+    <div id="p5"></div>
+    <p id="ftxt">F</p>
+
+    <div id="p6"></div>
+    <p id="fstxt">F#</p>
+
+    <div id="p7"></div>
+    <p id="gtxt">G</p>
+
+    <div id="p8"></div>
+    <p id="gstxt">G#</p>
+
+    <div id="p9"></div>
+    <p id="atxt">A</p>
+
+    <div id="p10"></div>
+    <p id="astxt">A#</p>
+
+    <div id="p11"></div>
+    <p id="btxt">B</p>
+
+    <div id="p12"></div>
+    <p id="c2txt">C</p>
+
+    <div id="p13"></div>
+    <p id="cs1txt">C#</p>
+
+
+    <div id="p14"></div>
+    <p id="d2txt">D</p>
+
+    <div id="p15"></div>
+    <p id="ds1txt">D#</p>
+
+    <div id="p16"></div>
+    <p id="e2txt">E</p>
+
+    <div id="p17"></div>
+    <p id="f2txt">F</p>
+
+    <div id="p18"></div>
+    <p id="fs1txt">F#</p>
+
+    <div id="p19"></div>
+    <p id="g2txt">G</p>
+
+    <div id="p20"></div>
+    <p id="gs1txt">G#</p>
+
+    <div id="p21"></div>
+    <p id="a2txt">A</p>
+
+    <div id="p22"></div>
+    <p id="as1txt">A#</p>
+
+    <div id="p23"></div>
+    <p id="b2txt">B</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label id="printPiano">Result:</label>
+    <input id="button" type="button" name="button" value="Enter" />
+    <br>
+    <br>
+    <br>
+    <script src="script.js"></script>
+</body>
+
+</html>

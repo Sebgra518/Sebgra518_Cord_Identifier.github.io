@@ -1,0 +1,649 @@
+body {
+      background-color: aliceblue;
+}
+
+#staff0 {
+      width: 400px;
+      height: 6px;
+      background: black;
+}
+
+#staff1 {
+      width: 400px;
+      height: 10px;
+      background: aliceblue;
+}
+
+#staff2 {
+      width: 400px;
+      height: 6px;
+      background: black;
+}
+
+#staff3 {
+      width: 400px;
+      height: 10px;
+      background: aliceblue;
+}
+
+#staff4 {
+      width: 400px;
+      height: 6px;
+      background: black;
+}
+
+#staff5 {
+      width: 400px;
+      height: 10px;
+      background: aliceblue;
+}
+
+#staff6 {
+      width: 400px;
+      height: 6px;
+      background: black;
+}
+
+#staff7 {
+      width: 400px;
+      height: 10px;
+      background: aliceblue;
+}
+
+#staff8 {
+      width: 400px;
+      height: 6px;
+      background: black;
+}
+
+.button {
+      width: 80px;
+      height: 20px;
+      background-color: greenyellow;
+}
+
+#button {
+      position: absolute;
+      top: 610px;
+      left: 10px;
+}
+
+#note1 {
+      width: 30px;
+      position: absolute;
+      top: 400px;
+      left: 230px;
+      visibility: visible;
+}
+
+#TrebbleCleff {
+      width: 70px;
+      position: absolute;
+      left: 10px;
+      top: 340px;
+      z-index: 1;
+      visibility: visible;
+}
+
+#BassCleff {
+      width: 60px;
+      position: absolute;
+      left: 10px;
+      top: 354px;
+      z-index: 1;
+      visibility: hidden;
+}
+
+#sharp1 {
+      width: 20px;
+      position: absolute;
+      top: 334px;
+      left: 60px;
+      visibility: hidden;
+}
+
+#sharp2 {
+      width: 20px;
+      position: absolute;
+      top: 354px;
+      left: 80px;
+      visibility: hidden;
+}
+
+#sharp3 {
+      width: 20px;
+      position: absolute;
+      top: 324px;
+      left: 100px;
+      visibility: hidden;
+}
+
+#sharp4 {
+      width: 20px;
+      position: absolute;
+      top: 347px;
+      left: 120px;
+      visibility: hidden;
+}
+
+#sharp5 {
+      width: 20px;
+      position: absolute;
+      top: 370px;
+      left: 140px;
+      visibility: hidden;
+}
+
+#sharp6 {
+      width: 20px;
+      position: absolute;
+      top: 340px;
+      left: 160px;
+      visibility: hidden;
+}
+
+#sharp7 {
+      width: 20px;
+      position: absolute;
+      top: 362px;
+      left: 180px;
+      visibility: hidden;
+}
+
+#flat1 {
+      width: 20px;
+      position: absolute;
+      top: 360px;
+      left: 60px;
+      visibility: hidden;
+}
+
+#flat2 {
+      width: 20px;
+      position: absolute;
+      top: 340px;
+      left: 80px;
+      visibility: hidden;
+}
+
+#flat3 {
+      width: 20px;
+      position: absolute;
+      top: 370px;
+      left: 100px;
+      visibility: hidden;
+}
+
+#flat4 {
+      width: 20px;
+      position: absolute;
+      top: 348px;
+      left: 120px;
+      visibility: hidden;
+}
+
+#flat5 {
+      width: 20px;
+      position: absolute;
+      top: 375px;
+      left: 140px;
+      visibility: hidden;
+}
+
+#flat6 {
+      width: 20px;
+      position: absolute;
+      top: 354px;
+      left: 160px;
+      visibility: hidden;
+}
+
+#flat7 {
+      width: 20px;
+      position: absolute;
+      top: 384px;
+      left: 180px;
+      visibility: hidden;
+}
+
+#p0 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 10px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#ctxt {
+      color: black;
+      position: absolute;
+      left: 12px;
+      top: 538px;
+}
+
+#p1 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 30px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#cstxt {
+      color: white;
+      position: absolute;
+      left: 31px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p2 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 40px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#dtxt {
+      color: black;
+      position: absolute;
+      left: 42px;
+      top: 538px;
+}
+
+#p3 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 60px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#dstxt {
+      color: white;
+      position: absolute;
+      left: 61px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p4 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 70px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#etxt {
+      color: black;
+      position: absolute;
+      left: 72px;
+      top: 538px;
+}
+
+#p5 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 100px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#ftxt {
+      color: black;
+      position: absolute;
+      left: 102px;
+      top: 538px;
+}
+
+#p6 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 120px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#fstxt {
+      color: white;
+      position: absolute;
+      left: 121px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p7 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 130px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#gtxt {
+      color: black;
+      position: absolute;
+      left: 132px;
+      top: 538px;
+}
+
+#p8 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 150px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#gstxt {
+      color: white;
+      position: absolute;
+      left: 151px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p9 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 160px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#atxt {
+      color: black;
+      position: absolute;
+      left: 162px;
+      top: 538px;
+}
+
+#p10 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 180px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#astxt {
+      color: white;
+      position: absolute;
+      left: 181px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p11 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 190px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#btxt {
+      color: black;
+      position: absolute;
+      left: 192px;
+      top: 538px;
+}
+
+#p12 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 220px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#c2txt {
+      color: black;
+      position: absolute;
+      left: 222px;
+      top: 538px;
+}
+
+#p13 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 240px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#cs1txt {
+      color: white;
+      position: absolute;
+      left: 241px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p14 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 250px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#d2txt {
+      color: black;
+      position: absolute;
+      left: 252px;
+      top: 538px;
+}
+
+#p15 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 270px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#ds1txt {
+      color: white;
+      position: absolute;
+      left: 271px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p16 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 280px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#e2txt {
+      color: black;
+      position: absolute;
+      left: 282px;
+      top: 538px;
+}
+
+#p17 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 310px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#f2txt {
+      color: black;
+      position: absolute;
+      left: 312px;
+      top: 538px;
+}
+
+#p18 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 330px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#fs1txt {
+      color: white;
+      position: absolute;
+      left: 331px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p19 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 340px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#g2txt {
+      color: black;
+      position: absolute;
+      left: 342px;
+      top: 538px;
+}
+
+#p20 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 360px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#gs1txt {
+      color: white;
+      position: absolute;
+      left: 361px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p21 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 370px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#a2txt {
+      color: black;
+      position: absolute;
+      left: 372px;
+      top: 538px;
+}
+
+#p22 {
+      width: 20px;
+      height: 50px;
+      background: black;
+      position: absolute;
+      left: 390px;
+      top: 480px;
+      z-index: 1;
+      border: 1px black solid;
+}
+
+#as1txt {
+      color: white;
+      position: absolute;
+      left: 391px;
+      top: 498px;
+      z-index: 2;
+}
+
+#p23 {
+      width: 30px;
+      height: 90px;
+      background: white;
+      position: absolute;
+      left: 400px;
+      top: 480px;
+      z-index: 0;
+      border: 1px black solid;
+}
+
+#b2txt {
+      color: black;
+      position: absolute;
+      left: 402px;
+      top: 538px;
+}
